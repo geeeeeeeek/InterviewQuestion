@@ -15,19 +15,9 @@
 
 #### 关系图
  <img src="data/jdk-jre-jvm-diff.png" width = "500" height = "500" align=center />
-
-  
-    
-    
-      
-        
-          
-            
-              
-              
-
-
-
+   
+ <br/><br/><br/>
+   
 ##### 参考资料
 - https://www.linkedin.com/pulse/understanding-difference-between-jdk-jre-jvm-important-kumar
 - https://www.geeksforgeeks.org/differences-jdk-jre-jvm/
