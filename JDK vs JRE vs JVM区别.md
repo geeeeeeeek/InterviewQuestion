@@ -12,3 +12,5 @@
 - JDK包括编译器（javac.exe）、开发工具（javadoc.exe、jar.exe、keytool.exe、jconsole.exe）和更多的类库（如tools.jar）
 - JRE包括JVM虚拟机（java.exe等）和基本的类库（rt.jar等）
 
+#### 关系图
+ <img src="data/jdk-jre-jvm-diff.png" width = "500" height = "500" align=center />
