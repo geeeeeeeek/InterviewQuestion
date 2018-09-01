@@ -40,6 +40,6 @@ true
 ```
 - 当使用==比较的时候，因a和b指向的是同一个地址，所以a==b为true。因c是新建的一个String对象，在内存里新开辟了一个地址来存放c，所以a==c为false。
 - 当使用equals比较的时候，因a和b的值是一样的，所以a.equals(b)为true，另，c的值也是和a是一样的，故：a.equals(c)为true
-<br/>
+
 #### 如下图
 <img src='data/equals-equals.png' width=600 height=200/>
