@@ -42,4 +42,4 @@ true
 - 当使用equals比较的时候，因a和b的值是一样的，所以a.equals(b)为true，另，c的值也是和a是一样的，故：a.equals(c)为true
 <br/>
 #### 如下图
-<img src='' width=500 height=500/>
+<img src='data/equals-equals.png' width=600 height=200/>
