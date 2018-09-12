@@ -23,18 +23,19 @@ public class Memory {
 
 ```
 
+<br />
+<img src='https://github.com/geeeeeeeek/InterviewQuestion/blob/master/data/Java-Heap-Stack-Memory.png' width=400 height=300/>
+<br />
+
 ##### 速度与size
 栈存取速度快，堆区存储比较慢。栈区很小，堆区比较大。
 
 ##### 线程访问
 每个线程都有一个自己的JAVA栈， 所有线程共享一个堆。在JVM中，内存被分为线程栈区和堆区
 
-<br />
-<img src='https://github.com/geeeeeeeek/InterviewQuestion/blob/master/data/Java-Heap-Stack-Memory.png' width=300 height=300/>
-<br />
 
 <br />
-<img src='https://github.com/geeeeeeeek/InterviewQuestion/blob/master/data/thread-stack.png' width=300 height=300/>
+<img src='https://github.com/geeeeeeeek/InterviewQuestion/blob/master/data/thread-stack.png' width=400 height=300/>
 <br />
 
 ##### 垃圾回收
