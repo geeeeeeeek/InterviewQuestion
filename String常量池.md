@@ -31,6 +31,8 @@ String s = new String(“hello”);
 String s = new String(“hello”).intern();
 <br />
 intern()会优化代码，将s直接指向String pool中的”hello”
+<br />
+<br />
 
 ```
 String s1 = "Cat";		
