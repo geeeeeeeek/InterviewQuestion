@@ -14,7 +14,6 @@
 
 <br />
 String pool在方法区中存在，GC不会回收。
-<img src='https://github.com/geeeeeeeek/InterviewQuestion/blob/master/data/String-Pool-Java1.png' width=500 height=300/>
 
 #### 答案：
 String abc = “a” + “b” + “c”;
@@ -43,6 +42,10 @@ System.out.println((s1 == s2));  // true
 System.out.println((s1 == s3)); // false
 System.out.println((s1 == s4)); // true
 ```
+以上代码内存指向
+<br />
+<img src='https://github.com/geeeeeeeek/InterviewQuestion/blob/master/data/String-Pool-Java1.png' width=500 height=300/>
+
 
 #### 参考文献
 - https://segmentfault.com/a/1190000009888357
