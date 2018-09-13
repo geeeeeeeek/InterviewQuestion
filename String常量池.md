@@ -14,6 +14,7 @@
 
 <br />
 String pool在方法区中存在，GC不会回收。
+<img src='https://github.com/geeeeeeeek/InterviewQuestion/blob/master/data/String-Pool-Java1.png' width=500 height=300/>
 
 #### 答案：
 String abc = “a” + “b” + “c”;
