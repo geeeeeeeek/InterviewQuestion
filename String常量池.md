@@ -19,15 +19,17 @@ String pool在方法区中存在，GC不会回收。
 String abc = “a” + “b” + “c”;
 会创建几个objects？
 <br />
-1个或0个，Java编译器会把”a”+”b”+”c”合并成“abc”，如果String池中包含”abc”，创建0个对象，如果不包含，则创建1个。
+答：1个或0个，Java编译器会把”a”+”b”+”c”合并成“abc”，如果String池中包含”abc”，创建0个对象，如果不包含，则创建1个。
+<br />
 <br />
 String s = new String(“hello”);
 创建了几个”hello”？
 <br />
-2个或1个，JVM寻找String pool，如果String pool中存在”hello”，则创建1个，如果String池中不存在“hello”, 则创建2个。
+答：2个或1个，JVM寻找String pool，如果String pool中存在”hello”，则创建1个，如果String池中不存在“hello”, 则创建2个。
 
 <br />
 String s = new String(“hello”).intern();
+<br />
 intern()会优化代码，将s直接指向String pool中的”hello”
 
 ```
