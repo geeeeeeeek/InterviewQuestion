@@ -14,7 +14,8 @@
 JDK1.4中加入新的NIO（New Input/OutPut）类，引入了一种基于通道（Channel）与缓冲区（Buffer）的I/O方式，可以通过Native函数库直接分配堆外内存，然后通过Java堆中的DirectByteBuffer对象来对这块内存的引用进行操作，避免数据在Java堆与Native堆中数据的来回复制。
 <br />
 <br />
-总结：
+
+#### 总结：
 - 栈内存溢出：程序所要求的栈深度过大。 
 - 堆内存溢出： 分清内存泄露还是 内存容量不足。泄露则看对象如何被 GC Root 引用，不足则通过调大-Xms，-Xmx参数。 
 - 永久代溢出：Class对象未被释放，Class对象占用信息过多，有过多的Class对象。 
